@@ -3,19 +3,50 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Trancina</title>
+    <title>Trancina Menu</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GH6QG8WC6P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-GH6QG8WC6P');
+  </script>
+
+    <!-- Hotjar Tracking Code for https://menu.trancina.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:2941841,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
   </head>
 
   <body>
 
-    <div class="flex flex-col h-screen">
-      <a class="p-3 m-1 grow rounded-lg flex items-center justify-center bg-[#e3813f] shadow-lg" href="./english.pdf">
-        English
+    <div class="align-middle">
+    <div class="flex flex-col h-80">
+      
+      <h1 class="m-3 pt-5 text-center text-2xl">Benvenuti da Trancina!</h1>
+
+      <a class="p-3 m-1 grow rounded-lg flex items-center justify-center bg-[#e3813f] text-xl" href="./german.pdf">
+        Deutsche Speisekarte
       </a>
-      <a class="p-3 m-1 grow rounded-lg flex items-center justify-center bg-[#e3813f] shadow-lg" href="./german.pdf">
-        German
+
+      <a class="p-3 m-1 grow rounded-lg flex items-center justify-center bg-[#e3813f] text-xl" href="./english.pdf">
+        English Menu
       </a>
+      
+      <p class="m-2 text-center text-sm">
+        Wählen Sie Ihr gewünschtes Speisen und bestellen Sie direkt an der Kasse
+      </p>
+    </div>
     </div>
 
   </body>
